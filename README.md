@@ -1,5 +1,7 @@
 # React Nice Scroll
 
+<a href="https://www.npmjs.com/package/react-nice-scroll"><img src="https://img.shields.io/npm/v/react-nice-scroll.svg" alt="Version"></a>
+
 <img src="./img/ns.png" alt="React Nice Scroll" width="150"/>
 
 > A React library to smooth scroll and scroll-based animations.
@@ -7,7 +9,7 @@
 
 ## Document and Demo
 
-[check on](https://react-nice-scroll-docs.vercel.app/)
+Check on [document and demo](https://react-nice-scroll-docs.vercel.app/)
 
 ## Components
 
