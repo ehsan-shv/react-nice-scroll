@@ -1,0 +1,87 @@
+{
+  "version": "0.1.8",
+  "license": "MIT",
+  "name": "react-nice-scroll",
+  "author": "Ehsan Shahvirdi",
+  "description": "A React library to smooth scroll and scroll-based animations.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ehsan-shv/react-nice-scroll.git"
+  },
+  "keywords": [
+    "react",
+    "gsap",
+    "smooth-scroll-bar",
+    "react-scroll",
+    "react-smooth-scroll",
+    "scroll-animation",
+    "smooth-scroll",
+    "parallax-image",
+    "gelly-element",
+    "gelly-scroll",
+    "horizontal-scroll",
+    "canvas-sequence-images"
+  ],
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "engines": {
+    "node": ">=10"
+  },
+  "scripts": {
+    "start": "tsdx watch",
+    "build": "tsdx build",
+    "test": "tsdx test --passWithNoTests",
+    "lint": "tsdx lint",
+    "prepare": "tsdx build",
+    "size": "size-limit",
+    "analyze": "size-limit --why"
+  },
+  "peerDependencies": {
+    "react": ">=16"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "tsdx lint"
+    }
+  },
+  "prettier": {
+    "printWidth": 80,
+    "semi": true,
+    "singleQuote": true,
+    "trailingComma": "es5"
+  },
+  "module": "dist/react-nice-scroll.esm.js",
+  "size-limit": [
+    {
+      "path": "dist/react-nice-scroll.cjs.production.min.js",
+      "limit": "10 KB"
+    },
+    {
+      "path": "dist/react-nice-scroll.esm.js",
+      "limit": "10 KB"
+    }
+  ],
+  "devDependencies": {
+    "@size-limit/preset-small-lib": "^7.0.8",
+    "@types/react": "^18.0.9",
+    "@types/react-dom": "^18.0.4",
+    "husky": "^8.0.1",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "sass": "^1.52.1",
+    "size-limit": "^7.0.8",
+    "tsdx": "^0.14.1",
+    "tslib": "^2.4.0",
+    "typescript": "^4.6.4"
+  },
+  "dependencies": {
+    "gsap": "^3.10.4",
+    "react-hooks-global-state": "^1.0.2",
+    "rollup-plugin-scss": "^3.0.0",
+    "smooth-scrollbar": "^8.7.4"
+  }
+}
